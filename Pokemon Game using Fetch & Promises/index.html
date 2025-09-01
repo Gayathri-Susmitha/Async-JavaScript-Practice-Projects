@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Pokemon Game with fetch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Pokemon Game</h1>
+    </div>
+    <div style="display: block">
+      <button id="fight">Fight</button>
+    </div>
+    <div id="container">
+      <!-- player1 -->
+      <div id="player1" class="player-card">
+        <div class="card_header">
+          <span id="p1_name"></span>
+          <span id="p1_score"></span>
+        </div>
+        <div id="card1" class="pokemon-card">
+          <img id="img1" src="" alt="Pokemon 1" />
+          <span class="pokemon-name" id="name1"></span>
+          <span class="pokemon-experience" id="experience1"></span>
+          <ul class="pokemon-abilities" id="abilities1">
+            <li>Abilities:</li>
+          </ul>
+        </div>
+      </div>
+      <!-- player2 -->
+      <div id="player2" class="player-card">
+        <div class="card_header">
+          <span id="p2_name"></span>
+          <span id="p2_score"></span>
+        </div>
+        <div id="card2" class="pokemon-card">
+          <img id="img2" src="" alt="Pokemon 2" />
+          <span class="pokemon-name" id="name2"></span>
+          <span class="pokemon-experience" id="experience2"></span>
+          <ul class="pokemon-abilities" id="abilities2">
+            <li>Abilities:</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
